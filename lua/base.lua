@@ -8,3 +8,5 @@ vim.cmd("set mouse=a")
 vim.g.mapleader = " "
 
 vim.cmd("set termguicolors")
+
+vim.keymap.set("n", "<cr>", "ciw")
